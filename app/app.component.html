@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="home">
+  <h1>Calculator by Chaitanya</h1>
+  <input type="number" name="num1"[(ngModel)]="num1">
+  <input type="number" name="num2"[(ngModel)]="num2">
+  <br><br>
+  <button (click)="add()">Add</button>
+  <button (click)="sub()">Subtract</button>
+  <button (click)="mul()">Multiply</button>
+  <button (click)="div()">Divide</button>
+  <br><br>
+  <h3>Result: {{num3}}</h3>
+  <input type="number" name="num4"[(ngModel)]="num4">
+  <br><br>
+  <button (click)="fact()">Factorial</button>
+  <br>
+  <h3>Result: {{num5}}</h3>
+  <input type="number" name="num6"[(ngModel)]="num6">
+  <br><br>
+  <button (click)="prime()">Prime Check</button>
+  <br>
+  <h3>Result: {{num6}} is Prime Number</h3>
+  </div>
+</body>
+</html>
